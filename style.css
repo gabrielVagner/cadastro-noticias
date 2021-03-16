@@ -1,0 +1,84 @@
+html{
+    background: linear-gradient(180deg, #00203FFF ,#ADEFD1FF) fixed;
+    text-align: center;
+}
+
+
+body{
+    background: linear-gradient(180deg, #00203FFF ,#ADEFD1FF) fixed;
+}
+
+#root{
+    text-align: center;
+    display: block;
+    width: 70%;
+    word-break: break-all;
+    margin: auto;
+    margin-top: 10%;
+}
+.conteiner{
+    text-align: center;
+    margin: 10px;
+
+
+}
+input{
+    width: 260px;
+    height: 30px;
+
+}
+textarea{
+    width: 300px;
+    height: 150px;
+
+}
+
+.butIntera{
+    margin: 3px;
+}
+.pForm{
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.noti{
+    margin: auto;
+    text-align: center;
+    border: 2px solid #21368B;
+    border-radius: 2px;
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    background-color: rgb(197, 220, 255);
+}
+.notiG{
+    width: 100%;
+}
+
+
+.botaoNav{
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 9px;
+  background-color: #21368B;
+  border: solid 1px white;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  margin-bottom: 1%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  
+}
+
+
+.botaoNav:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
